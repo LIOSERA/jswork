@@ -4,7 +4,7 @@ document.write("<p>金字塔</p>")
  if (isNaN(level)){
      alert('金字塔的层数')
  }
- for(let i1;i<=level;++i){
+ for(let i=1;i<=level;++i){
     let blank = level - i;
     for(let k=0;k<blank;++k){
         document.write('&nbsp;');
@@ -15,7 +15,7 @@ document.write("<p>金字塔</p>")
       document.write('*') 
    }  
     //换行
-    doucument.write("<br>")
+    document.write("<br>")
 }
     
 let str = '<table border="l">'
