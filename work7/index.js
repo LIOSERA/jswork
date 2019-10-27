@@ -1,6 +1,6 @@
 function sort(method){
     //读取待排序数据
-    let origin = document.getElementById('origin').nodeValue
+    let origin = document.getElementById('origin').Value
     let logs
     console.log(method)
     //根据传入排序的方法调用不同的排序函数
